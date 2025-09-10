@@ -1,7 +1,7 @@
 # Facebook App Configuration
 APP_ID = ""
 APP_SECRET = ""
-REDIRECT_URI = "http://localhost:8000/auth/callback"#https://fa502b30a673.ngrok-free.app/auth/callback
+REDIRECT_URI = "http://localhost:8000/auth/callback"
 WEBHOOK_VERIFY_TOKEN = "crmsecret123"
 
 # JSON file names
@@ -12,3 +12,4 @@ MESSAGES_DATA_FILE = "messages_data.json"
 # Storage
 user_data = {}
 participant_names = {}
+
