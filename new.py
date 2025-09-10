@@ -16,8 +16,8 @@ app = FastAPI()
 # FACEBOOK APP CONFIGURATION
 # ================================
 
-APP_ID = "1482196416148349"
-APP_SECRET = "1a3cb0d489dd46222e93fd4aafa1d335"
+APP_ID = ""
+APP_SECRET = ""
 REDIRECT_URI = "http://localhost:8000/auth/callback"
 WEBHOOK_VERIFY_TOKEN = "crmsecret123"
 
@@ -1157,3 +1157,4 @@ if __name__ == "__main__":
     except KeyboardInterrupt:
         print("\n👋 Server shutting down...")
         sys.exit(0)
+
